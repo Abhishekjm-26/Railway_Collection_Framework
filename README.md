@@ -29,3 +29,6 @@ to terminates
 When program terminates, it should print all reservation details - How may C,
 R and W.
 
+
+1) 
+
