@@ -17,7 +17,7 @@ class Reservation{
     		else
     		{
     			System.out.println("Enter the Passenger name");
-    			String name= in.nextLine();
+    			String name= in.next();
     			if(confirmed_queue.size()<C){
         		confirmed_queue.add(name);
         		System.out.println("Your reservation is Confirmed with Seat No: "+confirmed_queue.size());
@@ -53,7 +53,7 @@ class Reservation{
     					System.out.println("Reserved Passengers are:" +confirmed_queue);
 					System.out.println("RAC Passengers are:" + rac_queue);
 					System.out.println("Waiting List Passengers are:" + waiting_queue);
-					System.out.println("ENTER 1:Confirmation Cancelation 2:RAC Cancelation 3:Waiting Cancelation\n");
+					System.out.println("ENTER 1:Confirmation Cancellation 2:RAC Cancellation 3:Waiting Cancellation");
 					Scanner in=new Scanner(System.in);
 					int p=in.nextInt();
 					switch(p)
@@ -109,13 +109,13 @@ class Reservation{
            							System.out.println("Ticket Cancelled\n");
      	     							}
      	    					else if(!waiting_queue.contains(name_3))
-           				{
+           					{
            					System.out.println("Invalid Passenger Name");
-           				}
-					
+           					}
+						default:System.out.println("Invalid choice");
 					}
 
-					}  
+				}  
   public void Details(){
         System.out.println("Confirmation List Passengers ");
         for(String m:confirmed_queue){
