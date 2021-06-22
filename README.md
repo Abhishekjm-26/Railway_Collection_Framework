@@ -27,8 +27,5 @@ Display your USN, Name and Section and the following option
 User can select any of these option in any order, any no. of times until option 0
 to terminates
 When program terminates, it should print all reservation details - How may C,
-R and W.
-
-
-1) 
+R and W. 
 
