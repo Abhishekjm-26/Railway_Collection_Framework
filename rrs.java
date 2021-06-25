@@ -218,8 +218,4 @@ public static void main(String[] args) {
         }
     }
 
-System.out.println("Your seat is in RAC do you whant to conform please press 1");
-            		int ch = in.nextInt();
-System.out.print("Your reservation is in waiting list do you whant to confirm. please press 1");
-            		int ch = in.nextInt();
-if(ch==1)
+
